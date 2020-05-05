@@ -19,7 +19,7 @@ final class TestNotificationWithManyMessages extends Notification
         return new SmsRuMessage(
             new Multi([
                 new To('79990000000', 'Hello'),
-                new To('79991111111','Bonjour'),
+                new To('79991111111', 'Bonjour'),
             ])
         );
     }
