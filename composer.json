@@ -1,0 +1,42 @@
+{
+    "name": "kafkiansky/laravel-sms-ru-channel",
+    "description": "Laravel sms.ru channel",
+    "type": "library",
+    "keywords": ["sms.ru", "laravel"],
+    "homepage": "https://github.com/kafkiansky/laravel-sms-ru-channel",
+    "require": {
+        "php": "^7.2",
+        "kafkiansky/sms-ru-client": "^1.0",
+        "illuminate/notifications": "5.1 - 5.8|^6.0|^7.0",
+        "illuminate/support": "5.1 - 5.8|^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kafkiansky\\SmsRuChannel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kafkiansky\\SmsRuChannel\\Tests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kafkiansky",
+            "email": "vadimzanfir@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/kafkiansky"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --do-not-cache-result --color=always"
+    }
+}
