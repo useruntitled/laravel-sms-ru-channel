@@ -26,7 +26,7 @@ final class SmsRuProvider extends ServiceProvider implements DeferrableProvider
     public function provides()
     {
         return [
-            SmsRuApi::class
+            SmsRuApi::class,
         ];
     }
 }

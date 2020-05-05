@@ -54,7 +54,7 @@ final class SmsRuChannelTest extends TestCase
 
     public function testThatSingleMessageCanBeSend()
     {
-        $this->mockHandler->append(new Response(200, [], file_get_contents(__DIR__ . '/fixtures/send_single_message.json')));
+        $this->mockHandler->append(new Response(200, [], file_get_contents(__DIR__.'/fixtures/send_single_message.json')));
 
         $response = $this->channel->send(new FakeNotifiable(), new TestNotificationWithSingleMessage());
 
@@ -66,7 +66,7 @@ final class SmsRuChannelTest extends TestCase
 
     public function testThatManyMessagesCanBeSend()
     {
-        $this->mockHandler->append(new Response(200, [], file_get_contents(__DIR__ . '/fixtures/send_many_messages.json')));
+        $this->mockHandler->append(new Response(200, [], file_get_contents(__DIR__.'/fixtures/send_many_messages.json')));
 
         $response = $this->channel->send(new FakeNotifiable(), new TestNotificationWithManyMessages());
 
