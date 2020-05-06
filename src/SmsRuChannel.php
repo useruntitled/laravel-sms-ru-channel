@@ -29,7 +29,7 @@ final class SmsRuChannel
             return $this->api->send($message);
         }
 
-        if (!($to = $notifiable->routeNotificationFor('SmsRu', $notification))) {
+        if (! ($to = $notifiable->routeNotificationFor('SmsRu', $notification))) {
             return null;
         }
 
