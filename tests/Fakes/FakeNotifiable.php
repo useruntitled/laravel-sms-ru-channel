@@ -6,7 +6,7 @@ namespace Kafkiansky\SmsRuChannel\Tests\Fakes;
 
 use Illuminate\Notifications\Notifiable;
 
-final class FakeNotifiable
+class FakeNotifiable
 {
     use Notifiable;
 

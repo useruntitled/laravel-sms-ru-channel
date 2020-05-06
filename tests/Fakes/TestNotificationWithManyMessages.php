@@ -9,7 +9,7 @@ use Kafkiansky\SmsRu\Message\Multi;
 use Kafkiansky\SmsRu\Message\SmsRuMessage;
 use Kafkiansky\SmsRu\Message\To;
 
-final class TestNotificationWithManyMessages extends Notification
+class TestNotificationWithManyMessages extends Notification
 {
     /**
      * @return SmsRuMessage

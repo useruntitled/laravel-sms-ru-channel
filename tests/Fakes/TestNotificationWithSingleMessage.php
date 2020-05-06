@@ -8,7 +8,7 @@ use Illuminate\Notifications\Notification;
 use Kafkiansky\SmsRu\Message\SmsRuMessage;
 use Kafkiansky\SmsRu\Message\To;
 
-final class TestNotificationWithSingleMessage extends Notification
+class TestNotificationWithSingleMessage extends Notification
 {
     /**
      * @return SmsRuMessage

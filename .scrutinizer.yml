@@ -13,3 +13,6 @@ checks:
     fix_linefeed: true
     fix_line_ending: true
     fix_identation_4spaces: true
+
+tools:
+  external_code_coverage: true
