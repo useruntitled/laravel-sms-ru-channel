@@ -26,7 +26,7 @@ composer require kafkiansky/laravel-sms-ru-channel
 
 Register provider:
 ```php
-config/app.php
+// config/app.php
 'providers' => [
     ...
     Kafkiansky\SmsRuChannel\SmsRuProvider::class,
@@ -36,7 +36,7 @@ config/app.php
 Add configuration in `config/services.php`:
 
 ```php
-config/services.php
+// config/services.php
 
 'sms_ru' => [
     'api_id' => env('SMS_RU_API_ID'),
@@ -93,7 +93,7 @@ class User
 
     public function routeNotificationForSmsRu()
     {
-        return $this->phone; // can by array of phone numbers
+        return $this->phone; // can be array of phone numbers
     }
 }
 ```
