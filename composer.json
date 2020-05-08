@@ -37,6 +37,6 @@
         "sort-packages": true
     },
     "scripts": {
-        "test": "vendor/bin/phpunit --do-not-cache-result --color=always"
+        "test": "vendor/bin/phpunit --do-not-cache-result --color=always --coverage-clover=coverage.xml"
     }
 }
