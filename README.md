@@ -5,6 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/kafkiansky/laravel-sms-ru-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/kafkiansky/laravel-sms-ru-channel)
 [![StyleCI](https://styleci.io/repos/261535706/shield)](https://styleci.io/repos/261535706)
 [![Total Downloads](https://img.shields.io/packagist/dt/kafkiansky/laravel-sms-ru-channel.svg?style=flat-square)](https://packagist.org/packages/kafkiansky/laravel-sms-ru-channel)
+[![Codecov](https://codecov.io/gh/kafkiansky/laravel-sms-ru-channel/branch/master/graph/badge.svg)](https://codecov.io/gh/kafkiansky/laravel-sms-ru-channel)
 
 ## Content
 - [Installation](#installation)
