@@ -6,7 +6,7 @@
     "homepage": "https://github.com/WebRegul/laravel-sms-ru-channel",
     "require": {
         "php": "^7.2",
-        "kafkiansky/sms-ru-client": "^1.0",
+        "webregul/sms-ru-client": "^1.0",
         "illuminate/notifications": "5.1 - 5.8|^6.0|^7.0|^8.0",
         "illuminate/support": "5.1 - 5.8|^6.0|^7.0|^8.0"
     },
@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Kafkiansky\\SmsRuChannel\\Tests\\": "tests"
+            "WebRegul\\SmsRuChannel\\Tests\\": "tests"
         }
     },
     "license": "MIT",
@@ -29,8 +29,7 @@
             "name": "webregul",
             "email": "info@webregul.ru",
             "role": "Developer",
-            "homepage": "https://github.com/WebRegul",
-            "fork": "https://github.com/kafkiansky/laravel-sms-ru-channel"
+            "homepage": "https://github.com/WebRegul"
         }
     ],
     "minimum-stability": "stable",

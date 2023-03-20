@@ -7,15 +7,15 @@ namespace Kafkiansky\SmsRuChannel\Tests;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
-use Kafkiansky\SmsRu\SmsRuApi;
-use Kafkiansky\SmsRu\SmsRuConfig;
-use Kafkiansky\SmsRuChannel\SmsRuChannel;
-use Kafkiansky\SmsRuChannel\Tests\Fakes\FakeNotifiable;
-use Kafkiansky\SmsRuChannel\Tests\Fakes\NullNotifiable;
-use Kafkiansky\SmsRuChannel\Tests\Fakes\TestNotificationWithManyMessages;
-use Kafkiansky\SmsRuChannel\Tests\Fakes\TestNotificationWithSingleMessage;
-use Kafkiansky\SmsRuChannel\Tests\Fakes\TestNotificationWithStringMessage;
-use Kafkiansky\SmsRuChannel\Tests\Fakes\TestNullNotification;
+use WebRegul\SmsRu\SmsRuApi;
+use WebRegul\SmsRu\SmsRuConfig;
+use WebRegul\SmsRuChannel\SmsRuChannel;
+use WebRegul\SmsRuChannel\Tests\Fakes\FakeNotifiable;
+use WebRegul\SmsRuChannel\Tests\Fakes\NullNotifiable;
+use WebRegul\SmsRuChannel\Tests\Fakes\TestNotificationWithManyMessages;
+use WebRegul\SmsRuChannel\Tests\Fakes\TestNotificationWithSingleMessage;
+use WebRegul\SmsRuChannel\Tests\Fakes\TestNotificationWithStringMessage;
+use WebRegul\SmsRuChannel\Tests\Fakes\TestNullNotification;
 use PHPUnit\Framework\TestCase;
 
 final class SmsRuChannelTest extends TestCase

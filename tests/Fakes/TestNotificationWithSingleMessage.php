@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Kafkiansky\SmsRuChannel\Tests\Fakes;
+namespace WebRegul\SmsRuChannel\Tests\Fakes;
 
 use Illuminate\Notifications\Notification;
-use Kafkiansky\SmsRu\Message\SmsRuMessage;
-use Kafkiansky\SmsRu\Message\To;
+use WebRegul\SmsRu\Message\SmsRuMessage;
+use WebRegul\SmsRu\Message\To;
 
 class TestNotificationWithSingleMessage extends Notification
 {

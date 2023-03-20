@@ -1,6 +1,6 @@
 <?php
 
-namespace Kafkiansky\SmsRuChannel\Tests\Fakes;
+namespace WebRegul\SmsRuChannel\Tests\Fakes;
 
 use Illuminate\Notifications\Notifiable;
 

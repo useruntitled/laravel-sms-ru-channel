@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace WebRegul\SmsRuChannel;
 
 use Illuminate\Notifications\Notification;
-use Kafkiansky\SmsRu\Message\SmsRuMessage;
-use Kafkiansky\SmsRu\Message\To;
-use Kafkiansky\SmsRu\SmsRuApi;
+use WebRegul\SmsRu\Message\SmsRuMessage;
+use WebRegul\SmsRu\Message\To;
+use WebRegul\SmsRu\SmsRuApi;
 
 final class SmsRuChannel
 {

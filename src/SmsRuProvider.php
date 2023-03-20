@@ -8,8 +8,8 @@ use GuzzleHttp\Client;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
-use Kafkiansky\SmsRu\SmsRuApi;
-use Kafkiansky\SmsRu\SmsRuConfig;
+use WebRegul\SmsRu\SmsRuApi;
+use WebRegul\SmsRu\SmsRuConfig;
 
 final class SmsRuProvider extends ServiceProvider implements DeferrableProvider
 {

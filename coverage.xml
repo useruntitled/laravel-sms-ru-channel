@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1679288468">
+  <project timestamp="1679288468">
+    <package name="WebRegul\SmsRuChannel">
+      <file name="/var/www/packeges/laravel-sms-ru-channel/src/SmsRuChannel.php">
+        <class name="WebRegul\SmsRuChannel\SmsRuChannel" namespace="WebRegul\SmsRuChannel">
+          <metrics complexity="5" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+        </class>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="21" type="stmt" count="5"/>
+        <line num="22" type="stmt" count="5"/>
+        <line num="24" type="method" name="send" visibility="public" complexity="4" crap="4" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <metrics loc="42" ncloc="40" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/var/www/packeges/laravel-sms-ru-channel/src/SmsRuProvider.php">
+        <class name="WebRegul\SmsRuChannel\SmsRuProvider" namespace="WebRegul\SmsRuChannel">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="register" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="26" type="method" name="provides" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="32" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="2" loc="74" ncloc="72" classes="2" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="10" elements="26" coveredelements="12"/>
+  </project>
+</coverage>
