@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kafkiansky\SmsRuChannel;
+namespace WebRegul\SmsRuChannel;
 
 use Illuminate\Notifications\Notification;
 use Kafkiansky\SmsRu\Message\SmsRuMessage;
