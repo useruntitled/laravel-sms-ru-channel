@@ -19,7 +19,7 @@
 
 Install package with Composer:
 ```bash
-composer require kafkiansky/laravel-sms-ru-channel
+composer require webregul/laravel-sms-ru-channel
 ```
 
 ## Usage
