@@ -5,13 +5,13 @@
     "keywords": ["sms.ru", "laravel"],
     "homepage": "https://github.com/WebRegul/laravel-sms-ru-channel",
     "require": {
-        "php": "^7.2",
-        "webregul/sms-ru-client": "^1.0",
-        "illuminate/notifications": "5.1 - 5.8|^6.0|^7.0|^8.0",
-        "illuminate/support": "5.1 - 5.8|^6.0|^7.0|^8.0"
+        "php": "^8.0",
+        "webregul/sms-ru-client": "^2.0",
+        "illuminate/notifications": "^8.0|^9.0|^10.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
